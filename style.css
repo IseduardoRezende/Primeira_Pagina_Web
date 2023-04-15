@@ -1,0 +1,87 @@
+/*CSS utiliza de propriedades*/
+
+* {
+    /*CSS Box Mode:*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    height: 40vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+strong {
+
+    font-family: Arial;
+    color: red;
+}
+
+.apresentacao {
+
+    margin: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+
+    /*gap: Propriedade que da espaçamento entre elementos.*/
+    gap: 40px;
+}
+
+
+.apresentacao__conteudo__titulo {
+
+    font-family: Arial;
+    font-size: 36px;
+}
+
+.titulo_destaque {
+
+    color: royalblue;
+}
+
+.apresentacao__conteudo__paragrafo {
+
+    font-family: Arial;
+    font-size: 22px;
+    height: 10%;
+
+}
+
+.apresentacao__links {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: large;
+
+    width: 280px;
+    border-radius: 16px;
+    padding: 25.5px 0;
+
+    text-align: center;
+}
+
+.apresentacao__imagem {
+
+    height: 550px;
+    width: 520;
+}
